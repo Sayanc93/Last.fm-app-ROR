@@ -10,7 +10,7 @@ This simple application that lets you:
 
 	* Show similar artists from the searched artist
 
-	* Show user's searched history
+	* Show user's search history
 
 To run the application on your system, you have to paste
 your api key and api secret provided from your account at
