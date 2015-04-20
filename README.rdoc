@@ -1,28 +1,17 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This simple application that lets you:
 
-Things you may want to cover:
+	* Sign up and create an account
 
-* Ruby version
+	* Log in to your account plus logout and has a simple authentication system (no authentication gem used)
 
-* System dependencies
+	* Search artists from Last.fm
 
-* Configuration
+	* Show similar artists from the searched artist
 
-* Database creation
+	* Show user's searched history
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+To run the application on your system, you have to paste
+your api key and api secret provided from your account at
+Last.fm in the config/secrets.yml file
