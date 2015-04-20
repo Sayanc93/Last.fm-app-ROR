@@ -1,0 +1,10 @@
+<body class="background">
+	    <div class="intro-text">
+	    <% if logged_in? %>
+	    	<div class="intro-lead-in">Hello There, Click On Your Profile To Start Searching!</div>
+	    <% else %>
+	        <div class="intro-lead-in">Discover your favourite artists!</div>
+	        <%= link_to "Sign Up Now!", signup_path, class:'page-scroll btn btn-xl' %>
+	    	</div>
+	    <% end %>
+</body>

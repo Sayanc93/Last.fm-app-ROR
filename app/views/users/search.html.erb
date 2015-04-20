@@ -1,0 +1,21 @@
+<div class="row jumbotron">
+<h2 align="center">Search Results</h2>
+<div class="well col-md-4 ">
+<h2><small>Top Tracks from the searched artist</small></h2>
+<% @result.each do |i| %>
+<%= i %></br>
+<% end %>
+</div>
+<div class="well col-md-4">
+<h2><small>Similar Artists</small></h2>
+<% @similar.each do |i| %>
+<%= i %></br>
+<% end %>
+</div>
+<div class="well col-md-4">
+<h2><small>Searched History</small></h2>
+<% @history.each do |i| %>
+<%= i %></br>
+<% end %>
+</div>
+</div>
